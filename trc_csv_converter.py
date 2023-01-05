@@ -69,5 +69,6 @@ with open(trc_filename,'r') as f1, open(csv_filename,'w',newline="") as f2:
     stop = timeit.default_timer()
          
     print('File Converion Completed')
+    # Calculate the total runtime of this application
     print('Total Processing Time (Seconds): ', stop - start)
 
